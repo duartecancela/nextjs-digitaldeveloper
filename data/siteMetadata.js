@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'digitaldeveloper.dev',
   author: 'Tails Azimuth',
   headerTitle: 'digitaldeveloper.dev',
-  description: 'Data Science Engineering and Web Development',
+  description: 'Data Science Engineering and Web Development.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'digitaldeveloper.dev',
