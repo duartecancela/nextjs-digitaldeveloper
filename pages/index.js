@@ -4,6 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import Image from 'next/image'
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -31,7 +32,7 @@ export default function Home({ posts }) {
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
+            const { slug, date, title, summary, tags, image } = frontMatter
             return (
               <li key={slug} className="py-12">
                 <article>
@@ -41,6 +42,15 @@ export default function Home({ posts }) {
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                         <time dateTime={date}>{formatDate(date)}</time>
                       </dd>
+                      <div className="pr-5">
+                        <Image
+                          className="w-full object-cover hover:brightness-105"
+                          alt="ocean"
+                          src={`/static/${image}`}
+                          width={250}
+                          height={141}
+                        />
+                      </div>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">

@@ -4,6 +4,7 @@ date: '2022-06-08'
 tags: ['markdown', 'code', 'features', 'test']
 draft: false
 summary: Example of a test post
+image: 'images/time-machine.jpg'
 ---
 
 A sample post with markdown.
