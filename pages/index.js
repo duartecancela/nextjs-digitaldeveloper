@@ -36,17 +36,18 @@ export default function Home({ posts }) {
             return (
               <li key={slug} className="py-12">
                 <article>
-                  <div className="flex items-stretch space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:gap-4 xl:space-y-0 ">
-                    <div className="space-y-5 self-center">
+                  <div className="flex flex-col items-stretch space-y-2 xl:grid xl:grid-cols-3 xl:items-baseline xl:gap-4 xl:space-y-0">
+                    <div className="w-full space-y-5 self-center">
                       <Image
                         className="w-full object-cover hover:brightness-105"
                         alt={slug}
                         src={`/static/${image}`}
-                        width={280}
-                        height={171}
+                        layout="responsive"
+                        width={800}
+                        height={450}
                       />
                     </div>
-                    <div className="space-y-5 xl:col-span-3">
+                    <div className="space-y-5 xl:col-span-2">
                       <div className="space-y-6">
                         <div>
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
