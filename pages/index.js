@@ -36,22 +36,16 @@ export default function Home({ posts }) {
             return (
               <li key={slug} className="py-12">
                 <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                    <dl>
-                      <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                        <time dateTime={date}>{formatDate(date)}</time>
-                      </dd>
-                      <div className="pr-5">
-                        <Image
-                          className="w-full object-cover hover:brightness-105"
-                          alt="ocean"
-                          src={`/static/${image}`}
-                          width={250}
-                          height={141}
-                        />
-                      </div>
-                    </dl>
+                  <div className="flex items-stretch space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:gap-4 xl:space-y-0 ">
+                    <div className="space-y-5 self-center">
+                      <Image
+                        className="w-full object-cover hover:brightness-105"
+                        alt={slug}
+                        src={`/static/${image}`}
+                        width={280}
+                        height={171}
+                      />
+                    </div>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
@@ -68,6 +62,12 @@ export default function Home({ posts }) {
                               <Tag key={tag} text={tag} />
                             ))}
                           </div>
+                          <dl>
+                            <dt className="sr-only">Published on</dt>
+                            <dd className="text-xs font-medium leading-6 text-gray-500 dark:text-gray-400">
+                              <time dateTime={date}>{formatDate(date)}</time>
+                            </dd>
+                          </dl>
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                           {summary}
