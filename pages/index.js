@@ -38,14 +38,16 @@ export default function Home({ posts }) {
                 <article>
                   <div className="flex flex-col items-stretch space-y-2 xl:grid xl:grid-cols-3 xl:items-baseline xl:gap-4 xl:space-y-0">
                     <div className="w-full space-y-5 self-center">
-                      <Image
-                        className="w-full object-cover hover:brightness-105"
-                        alt={slug}
-                        src={`/static/${image}`}
-                        layout="responsive"
-                        width={800}
-                        height={450}
-                      />
+                      <Link href={`/blog/${slug}`}>
+                        <Image
+                          className="w-full object-cover hover:brightness-105"
+                          alt={slug}
+                          src={`/static/${image}`}
+                          layout="responsive"
+                          width={800}
+                          height={450}
+                        />
+                      </Link>
                     </div>
                     <div className="space-y-5 xl:col-span-2">
                       <div className="space-y-6">
