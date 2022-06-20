@@ -5,6 +5,7 @@ tags: ['markdown', 'code', 'features', 'test']
 draft: false
 summary: Example of a test post
 image: 'images/time-machine.jpg'
+authors: ['duarte']
 ---
 
 A sample post with markdown.
