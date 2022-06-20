@@ -10,12 +10,12 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
+  email: 'mail@digitaldeveloper.dev',
+  github: 'https://github.com/orgs/digitaldeveloper-dev/',
   twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  facebook: 'https://www.facebook.com/digitaldeveloperblog',
+  youtube: 'https://www.youtube.com/channel/UC2xnXYln5CXgnFLxFSaoW1Q',
+  linkedin: 'https://www.linkedin.com/company/digitaldeveloper-dev/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
