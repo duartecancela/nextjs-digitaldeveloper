@@ -1,10 +1,10 @@
 import { DiscussionEmbed } from 'disqus-react'
 const DisqusComments = ({ post }) => {
-  const disqusShortname = 'your-disqus-shortname'
+  const disqusShortname = 'digitaldeveloper-dev'
   const disqusConfig = {
-    url: 'https://digitaldeveloper-dev.disqus.com/',
-    identifier: '2', // Single post id
-    title: 'teste2', // Single post title
+    url: 'https://www.digitaldeveloper.dev/test-post',
+    identifier: 'test-post', // Single post id
+    title: 'test-post', // Single post title
   }
   return (
     <div>
