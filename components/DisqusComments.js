@@ -4,7 +4,7 @@ const DisqusComments = ({ post }) => {
   const disqusShortname = 'digitaldeveloper-dev'
 
   const disqusConfig = {
-    url: 'http://localhost:3000/blog/test-post',
+    url: 'http://digitaldeveloper.dev/blog/test-post',
     identifier: 'test-post', // Single post id
     title: 'test-post', // Single post title
   }
