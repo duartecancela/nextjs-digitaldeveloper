@@ -95,7 +95,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 {` • `}
                 <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
               </div>
-              <DisqusComments>DISQUS</DisqusComments>
               <Comments frontMatter={frontMatter} />
             </div>
             <footer>
