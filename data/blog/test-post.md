@@ -30,7 +30,6 @@ Java is a robust and scalable programming language that is widely used in enterp
 
 JavaScript is a programming language that is widely used for front-end web development, but it can also be used for back-end development. Its versatility and ability to work with other technologies make it a great choice for building web applications.
 
----
 
 Ultimately, the choice of programming language depends on various factors, such as the project's requirements, the developer's skillset, and the available resources.
 
