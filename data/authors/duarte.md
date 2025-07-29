@@ -1,7 +1,7 @@
 ---
 name: Duarte Cancela
 avatar: /static/images/duartec.jpg
-occupation: Full Stack Developer | BSc in Computer Engineering | MSc in IoT & Computer Engineering
+occupation: Full Stack Developer | BSc in Computer Engineering | MSc in IoT & Computer Engineering | Music Producer
 company: digitaldeveloper.dev
 email: duartec@digitaldeveloper.dev
 twitter: https://twitter.com/duartecancela
@@ -61,4 +61,7 @@ Various roles from 2001–2006 in tech retail, support, and logistics.
 - Founder of Associação de Músicos de Redondo and Orquestra “Planície”
 - Alto sax, flute, piano, guitar, bass
 - Author of [digitaldeveloper.dev](https://www.digitaldeveloper.dev)
+- Creator of musical projects on YouTube:
+  - [Duarte Cancela](https://www.youtube.com/@duartecancela)
+  - [Kuartzu](https://www.youtube.com/@kuartzumusic5966)
 - Fitness, cycling, electronics, and literature
