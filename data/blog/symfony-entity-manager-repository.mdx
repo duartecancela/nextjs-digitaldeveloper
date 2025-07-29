@@ -1,0 +1,28 @@
+---
+title: Differences between Entity Manager and Repositories in Symfony
+date: '2024-03-11'
+tags: ['Symfony', 'PHP', 'Web Development']
+draft: false
+summary: Understand the roles of EntityManager and Repositories in Symfony and how they differ when working with Doctrine ORM.
+image: 'images/symfony-entity-manager-repository.png'
+authors: ['duarte']
+---
+
+In Symfony framework, the **EntityManager** and **Repositories** are both components used for interacting with the database, particularly in the context of **Doctrine ORM** (Object-Relational Mapping).
+
+## EntityManager
+
+- Responsible for managing the lifecycle of entities, including persisting, updating, and removing them from the database.
+- Handles transactions and entity relationships.
+- Used for persisting and retrieving entities directly.
+
+## Repositories
+
+- Provide a way to query for entities using a higher-level abstraction than direct SQL queries.
+- Encapsulate the logic for retrieving entities based on certain criteria.
+- Allow for more complex queries and filtering operations.
+- Promote separation of concerns by separating database querying logic from business logic.
+
+---
+
+In summary, **EntityManager** deals with the management of entities' lifecycle and transactions, while **Repositories** provide a structured way to query for entities based on specific criteria, promoting modularity and maintainability in your application.

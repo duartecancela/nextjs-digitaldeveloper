@@ -1,0 +1,81 @@
+---
+title: Create a CRUD in Symfony 7
+date: '2024-03-14'
+tags: ['Symfony', 'PHP', 'Web Development']
+draft: false
+summary: Step-by-step guide to create a CRUD in Symfony 7 using MakerBundle and Doctrine ORM.
+image: 'images/symfony_crud.png'
+authors: ['duarte']
+---
+
+To create a Symfony project with a CRUD associated with a Product entity using the command line, along with installing **MakerBundle** and **ORM (Object-Relational Mapping)**, you can follow these steps:
+
+## 1. Install Symfony CLI
+
+If you haven't already, you need to install Symfony CLI. You can find installation instructions here: https://symfony.com/download
+
+## 2. Create Symfony Project
+
+Run the following command to create a new Symfony project:
+
+```bash
+symfony new my_project_name --version="7.1.*" --webapp
+```
+
+> Replace `my_project_name` with the name of your project.
+
+## 3. Navigate to Project Directory
+
+```bash
+cd my_project_name
+```
+
+## 4. Create Product Entity
+
+To create a Product entity, run the following command:
+
+```bash
+php bin/console make:entity Product
+```
+
+Follow the prompts to define the fields for your `Product` entity.
+
+## 5. Create CRUD Operations
+
+Use Symfony's MakerBundle to create CRUD operations:
+
+```bash
+php bin/console make:crud Product
+```
+
+This command will generate controllers, forms, templates, and routing for CRUD operations related to the `Product` entity.
+
+## 6. Database Setup
+
+If you haven't already, configure your database settings in the `.env` file. Then run:
+
+```bash
+php bin/console doctrine:database:create
+php bin/console make:migration
+php bin/console doctrine:migrations:migrate
+```
+
+This will create the tables needed for your `Product` entity.
+
+## 7. Run the Symfony Server
+
+```bash
+symfony server:start
+```
+
+## 8. Access CRUD Interface
+
+Once the server is running, you can access the CRUD interface by visiting:
+
+```
+http://localhost:8000/product
+```
+
+---
+
+That's it! You've created a Symfony project with CRUD operations for a Product entity using the command line.
