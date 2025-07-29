@@ -1,5 +1,5 @@
 ---
-title: Test Post
+title: Test Post Nextjs
 date: '2022-06-08'
 tags: ['markdown', 'code', 'features', 'test']
 draft: false
