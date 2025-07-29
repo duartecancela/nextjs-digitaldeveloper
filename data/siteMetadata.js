@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'digitaldeveloper.dev',
   author: 'Duarte Cancela',
   headerTitle: 'digitaldeveloper.dev',
-  description: 'Hardware and Software Engineering, Data Science and Web Development.',
+  description: 'Software Engineering, Data Science, Web Development and Music Production.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'digitaldeveloper.dev',
