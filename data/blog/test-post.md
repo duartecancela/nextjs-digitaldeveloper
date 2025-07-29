@@ -5,7 +5,7 @@ tags: ['Back-End', 'Programing Language', 'Web Development']
 draft: false
 summary: Comparison of programming languages commonly used for the back-end of blog-like web applications.
 image: 'images/christopher-gower-unsplash.jpg'
-authors: ['duartecancela']
+authors: ['duarte']
 ---
 
 Several programming languages can be used to develop the backend for a blog-like web application. Some of the most popular options include:
