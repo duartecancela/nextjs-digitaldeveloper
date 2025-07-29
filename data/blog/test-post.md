@@ -1,42 +1,38 @@
 ---
-title: Test Post Nextjs
-date: '2022-06-08'
-tags: ['markdown', 'code', 'features', 'test']
+title: What is the best programming language to develop a back-end for a blog-like web application?
+date: '2023-04-04'
+tags: ['Back-End', 'Programing Language', 'Web Development']
 draft: false
-summary: Example of a test post
-image: 'images/time-machine.jpg'
-authors: ['duarte']
+summary: Comparison of programming languages commonly used for the back-end of blog-like web applications.
+image: 'images/christopher-gower-unsplash.jpg'
+authors: ['duartecancela']
 ---
 
-A sample post with markdown.
+Several programming languages can be used to develop the backend for a blog-like web application. Some of the most popular options include:
 
-## Inline Highlighting
+## PHP
 
-Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
+PHP is a widely used programming language that is popular for web development. It is the backbone of many popular content management systems (CMS) such as WordPress, Drupal, and Joomla.
 
-## Code Blocks
+## Python
 
-Some Javascript code
+Python is a versatile and powerful programming language that is widely used in web development. Its simplicity, readability, and extensive community make it an excellent choice for building web applications.
 
-```javascript
-var num1, num2, sum
-num1 = prompt('Enter first number')
-num2 = prompt('Enter second number')
-sum = parseInt(num1) + parseInt(num2) // "+" means "add"
-alert('Sum = ' + sum) // "+" means combine into a string
-```
+## Ruby
 
-Some Python code 🐍
+Ruby is another popular programming language for web development. Its focus on readability and ease of use, as well as its strong community support, make it a great choice for building web applications.
 
-```python
-def fib():
-    a, b = 0, 1
-    while True:            # First iteration:
-        yield a            # yield 0 to start with and then
-        a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
+## Java
 
-for index, fibonacci_number in zip(range(10), fib()):
-     print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
-```
+Java is a robust and scalable programming language that is widely used in enterprise-level web application development. It is well-suited for building large-scale, complex applications.
 
-teste
+## JavaScript
+
+JavaScript is a programming language that is widely used for front-end web development, but it can also be used for back-end development. Its versatility and ability to work with other technologies make it a great choice for building web applications.
+
+---
+
+Ultimately, the choice of programming language depends on various factors, such as the project's requirements, the developer's skillset, and the available resources.
+
+![Photo by Christopher Gower on Unsplash](images/christopher-gower-unsplash.jpg)
+
